@@ -1,11 +1,11 @@
-# What is doEvery?
-**doEvery** is node.js module that extends setInterval, create more powerful task management (worker, jobs) with custom interval
+# What is doevery?
+**doevery** is node.js module that extends setInterval, create more powerful task management (worker, jobs) with custom interval
 
 # Installation
-> npm install doEvery
+> npm install doevery
 
 # Example
-    var doEvery = require('doEvery');
+    var doEvery = require('doevery');
     
     var task = new doEvery('two seconds'); /* You can pass integer as first argument */
     
@@ -80,18 +80,18 @@
 # Documentation
 
 ## Initialization ##
-### var task = new doEvery(timing, [shellCommand]) ###
+### var task = new doevery(timing, [shellCommand]) ###
 
 You can create new task with very simple init script: 
 
-    var doEvery = require('doEvery');
+    var doEvery = require('doevery');
     var task = new doEvery('two seconds');
 
-doEvery takes two arguments, first argument is timing options in string (because I use wtn module to parse words to number, you can read the topic [http://github.com/raitucarp/wtn](http://github.com/raitucarp/wtn)), but you can also pass integer to it. Second argument is shellCommand, if you want run shell command.
+doevery takes two arguments, first argument is timing options in string (because I use wtn module to parse words to number, you can read the topic [http://github.com/raitucarp/wtn](http://github.com/raitucarp/wtn)), but you can also pass integer to it. Second argument is shellCommand, if you want run shell command.
 
 If you pass string as first argument, you can additional time separate by comma:
 
-    var task = new doEvery('two weeks, three days, eight hours');
+    var task = new doevery('two weeks, three days, eight hours');
 
 ## Method list #Task ##
 
