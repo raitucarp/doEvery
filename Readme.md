@@ -2,7 +2,8 @@
 **doevery** is node.js module that extends setInterval, create more powerful task management (worker, jobs) with custom interval
 
 # Installation
-``` npm install doevery```
+
+	npm install doevery
 
 # Example
     var doEvery = require('doevery');
