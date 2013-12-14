@@ -1,5 +1,5 @@
 {
-  "name": "doEvery",
+  "name": "doevery",
   "version": "0.0.3",
   "description": "extends setInterval, create more powerful task management with custom interval",
   "main": "index.js",
