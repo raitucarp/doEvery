@@ -1,6 +1,6 @@
 {
   "name": "doevery",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "extends setInterval, create more powerful task management with custom interval",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/raitucarp/doEvery/issues"
+  },
+  "dependencies": {
+    "wtn": "*"
   }
 }
